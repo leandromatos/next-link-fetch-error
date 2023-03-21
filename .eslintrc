@@ -1,0 +1,6 @@
+{
+  "extends": ["next/core-web-vitals", "@leandromatos/eslint-config"],
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  }
+}

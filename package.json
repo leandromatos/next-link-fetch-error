@@ -1,0 +1,43 @@
+{
+  "name": "next-link-fetch-error",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "yarn lint:scripts && yarn lint:styles",
+    "lint:scripts": "next lint",
+    "lint:scripts:fix": "yarn lint --fix",
+    "lint:styles": "stylelint 'src/**/*.(ts|tsx|scss|css)'",
+    "lint:styles:fix": "yarn lint:styles --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.2.32",
+    "@types/node": "18.15.5",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "^8.36.0",
+    "eslint-config-next": "13.2.4",
+    "i18next": "^22.4.13",
+    "i18next-resources-to-backend": "^1.1.3",
+    "negotiator": "^0.6.3",
+    "next": "^13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^12.2.0",
+    "styled-components": "6.0.0-beta.13",
+    "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@leandromatos/eslint-config": "^1.3.3",
+    "@leandromatos/prettier-config": "^1.1.1",
+    "@leandromatos/stylelint-config": "^3.2.3",
+    "@types/negotiator": "^0.6.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.6",
+    "pretty-quick": "^3.1.3",
+    "stylelint": "^15.3.0"
+  }
+}

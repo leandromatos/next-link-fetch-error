@@ -1,0 +1,18 @@
+{
+  "head": {
+    "title": "My App",
+    "description": "Description"
+  },
+  "welcome": "Welcome",
+  "about": {
+    "title": "About",
+    "loading": {
+      "title": "Loading..."
+    }
+  },
+  "legal": {
+    "privacyPolicy": {
+      "title": "Privacy Policy"
+    }
+  }
+}
