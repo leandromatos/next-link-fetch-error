@@ -19,7 +19,7 @@ export const generateMetadata: GenerateMetadata = async ({ params: { locale } })
       template: `%s | ${t('translations:head.title')}`,
     },
     icons: {
-      icon: '/favicon.ico',
+      icon: '/assets/images/favicon.ico',
     },
   }
 }
@@ -31,13 +31,13 @@ const Layout: LayoutProps = ({ params: { locale }, children }) => {
         <StyledComponentsProvider>
           <S.Header>
             Go to:{' '}
-            <Link href={`/${locale}`} prefetch={false} lang={locale}>
+            <Link href={`/${locale}`} lang={locale}>
               Home
             </Link>{' '}
-            <Link href={`/${locale}/about`} prefetch={false} lang={locale}>
+            <Link href={`/${locale}/about`} lang={locale}>
               About
             </Link>{' '}
-            <Link href={`/${locale}/legal/privacy-policy`} prefetch={false} lang={locale}>
+            <Link href={`/${locale}/legal/privacy-policy`} lang={locale}>
               Privacy Policy
             </Link>
           </S.Header>

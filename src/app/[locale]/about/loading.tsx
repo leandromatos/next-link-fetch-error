@@ -1,3 +1,5 @@
+import * as S from './page.styled'
+
 export default function Loading() {
-  return <p>Loading about...</p>
+  return <S.Container>Loading about...</S.Container>
 }
